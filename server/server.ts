@@ -11,7 +11,7 @@ const port = 3000;
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'http://localhost:4200', // Adjust according to where your Angular app runs
+  origin: 'https://devendravenkatm.github.io/taskmanager/', // Adjust according to where your Angular app runs
 }));
 
 
